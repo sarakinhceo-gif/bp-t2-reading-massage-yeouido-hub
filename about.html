@@ -1,538 +1,536 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="bpaas-design-system" content="brutalist-avantgarde">
-    <meta name="bpaas-design-theme" content="kr-night-teal">
-    <title>소개 | 서울 유흥 상권 분석 가이드</title>
-    <meta name="description" content="서울 전역의 주요 야간 상권 분석 및 업종별 특징을 지도 노선처럼 명확히 풀어내는 정보 블로그입니다. 철저한 현장 답사와 객관적 데이터를 기반으로 신뢰할 수 있는 정보를 제공합니다.">
-    <meta name="keywords" content="유흥 상권 정보, 서울 유흥, 셔츠룸, 룸싸롱, 텐프로, 텐카페, 쩜오, 하이퍼블릭, 풀싸롱, 가라오케, 노래방, 비즈니스클럽, 마사지, 펍, 서울 지역 정보, 강남 유흥, 여의도 유흥, 홍대 유흥">
-    <link rel="canonical" href="https://reading.massage-yeouido-hub.xyz/about.html">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://reading.massage-yeouido-hub.xyz/about.html">
-    <meta property="og:title" content="소개 | 서울 유흥 상권 분석 가이드">
-    <meta property="og:description" content="서울 전역의 주요 야간 상권 분석 및 업종별 특징을 지도 노선처럼 명확히 풀어내는 정보 블로그입니다. 철저한 현장 답사와 객관적 데이터를 기반으로 신뢰할 수 있는 정보를 제공합니다.">
-    
-    <style>
-        :root {
-            --bg-color: #060b0e;
-            --panel-bg: #0d151a;
-            --panel-active: #14222b;
-            --primary-color: #00f0ff;
-            --primary-hover: #00a8b5;
-            --text-color: #e2e8f0;
-            --text-muted: #94a3b8;
-            --border-color: #1e293b;
-            --accent-red: #ff0055;
-            --font-sans: 'Pretendard', -apple-system, sans-serif;
-        }
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>소개 | 서울 유흥 상권 분석 가이드</title>
+ <meta name="description" content="서울 전역의 주요 야간 상권 분석 및 업종별 특징을 지도 노선처럼 명확히 풀어내는 정보 블로그입니다. 철저한 현장 답사와 객관적 데이터를 기반으로 신뢰할 수 있는 정보를 제공합니다.">
+ <meta name="keywords" content="유흥 상권 정보, 서울 유흥, 셔츠룸, 룸싸롱, 텐프로, 텐카페, 쩜오, 하이퍼블릭, 풀싸롱, 가라오케, 노래방, 비즈니스클럽, 마사지, 펍, 서울 지역 정보, 강남 유흥, 여의도 유흥, 홍대 유흥">
+ <link rel="canonical" href="https://reading.massage-yeouido-hub.xyz/about.html">
+ 
+ <!-- Open Graph / Facebook -->
+ <meta property="og:type" content="website">
+ <meta property="og:url" content="https://reading.massage-yeouido-hub.xyz/about.html">
+ <meta property="og:title" content="소개 | 서울 유흥 상권 분석 가이드">
+ <meta property="og:description" content="서울 전역의 주요 야간 상권 분석 및 업종별 특징을 지도 노선처럼 명확히 풀어내는 정보 블로그입니다. 철저한 현장 답사와 객관적 데이터를 기반으로 신뢰할 수 있는 정보를 제공합니다.">
+ 
+ <style>
+ :root {
+ --bg-color: #060b0e;
+ --panel-bg: #0d151a;
+ --panel-active: #14222b;
+ --primary-color: #00f0ff;
+ --primary-hover: #00a8b5;
+ --text-color: #e2e8f0;
+ --text-muted: #94a3b8;
+ --border-color: #1e293b;
+ --accent-red: #ff0055;
+ --font-sans: 'Pretendard', -apple-system, sans-serif;
+ }
 
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+ * {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ }
 
-        html, body {
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            font-family: var(--font-sans);
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
+ html, body {
+ background-color: var(--bg-color);
+ color: var(--text-color);
+ font-family: var(--font-sans);
+ line-height: 1.6;
+ overflow-x: hidden;
+ }
 
-        a {
-            color: var(--primary-color);
-            text-decoration: none;
-            transition: color 0.2s ease;
-        }
+ a {
+ color: var(--primary-color);
+ text-decoration: none;
+ transition: color 0.2s ease;
+ }
 
-        a:hover {
-            color: var(--primary-hover);
-        }
+ a:hover {
+ color: var(--primary-hover);
+ }
 
-        /* Brutalist Layout Elements */
-        header {
-            border-bottom: 3px solid var(--primary-color);
-            background-color: var(--panel-bg);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
+ /* Brutalist Layout Elements */
+ header {
+ border-bottom: 3px solid var(--primary-color);
+ background-color: var(--panel-bg);
+ position: sticky;
+ top: 0;
+ z-index: 100;
+ }
 
-        .q-list-iodg-main {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 1.5rem;
-        }
+ .q-list-iodg-main {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 1.5rem;
+ }
 
-        .logo-area {
-            font-size: 1.5rem;
-            font-weight: 900;
-            text-transform: uppercase;
-            letter-spacing: -1px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
+ .logo-area {
+ font-size: 1.5rem;
+ font-weight: 900;
+ text-transform: uppercase;
+ letter-spacing: -1px;
+ display: flex;
+ align-items: center;
+ gap: 10px;
+ }
 
-        .n-ico-3bik {
-            display: inline-block;
-            width: 12px;
-            height: 12px;
-            background-color: var(--accent-red);
-            border-radius: 50%;
-            box-shadow: 0 0 10px var(--accent-red);
-        }
+ .n-ico-3bik {
+ display: inline-block;
+ width: 12px;
+ height: 12px;
+ background-color: var(--accent-red);
+ border-radius: 50%;
+ box-shadow: 0 0 10px var(--accent-red);
+ }
 
-        .nav-links {
-            display: flex;
-            gap: 20px;
-        }
+ .nav-links {
+ display: flex;
+ gap: 20px;
+ }
 
-        .k-side-mqn7-link {
-            font-weight: 700;
-            font-size: 0.95rem;
-            text-transform: uppercase;
-            padding: 5px 10px;
-            border: 1px solid transparent;
-        }
+ .k-side-mqn7-link {
+ font-weight: 700;
+ font-size: 0.95rem;
+ text-transform: uppercase;
+ padding: 5px 10px;
+ border: 1px solid transparent;
+ }
 
-        .k-side-mqn7-link:hover, .k-side-mqn7-link.active {
-            border: 1px solid var(--primary-color);
-            background-color: rgba(0, 240, 255, 0.1);
-        }
+ .k-side-mqn7-link:hover, .k-side-mqn7-link.active {
+ border: 1px solid var(--primary-color);
+ background-color: rgba(0, 240, 255, 0.1);
+ }
 
-        /* Hero Banner */
-        .hero-banner {
-            max-width: 1200px;
-            margin: 3rem auto;
-            padding: 3rem 2rem;
-            background: linear-gradient(135deg, var(--panel-bg) 0%, #081014 100%);
-            border: 4px solid var(--border-color);
-            position: relative;
-            overflow: hidden;
-        }
+ /* Hero Banner */
+ .hero-banner {
+ max-width: 1200px;
+ margin: 3rem auto;
+ padding: 3rem 2rem;
+ background: linear-gradient(135deg, var(--panel-bg) 0%, #081014 100%);
+ border: 4px solid var(--border-color);
+ position: relative;
+ overflow: hidden;
+ }
 
-        .hero-banner::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 4px;
-            background: linear-gradient(90deg, var(--primary-color), var(--accent-red));
-        }
+ .hero-banner::before {
+ content: '';
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 4px;
+ background: linear-gradient(90deg, var(--primary-color), var(--accent-red));
+ }
 
-        .hero-title {
-            font-size: 2.8rem;
-            font-weight: 900;
-            line-height: 1.2;
-            margin-bottom: 1.5rem;
-            text-transform: uppercase;
-            letter-spacing: -1px;
-        }
+ .hero-title {
+ font-size: 2.8rem;
+ font-weight: 900;
+ line-height: 1.2;
+ margin-bottom: 1.5rem;
+ text-transform: uppercase;
+ letter-spacing: -1px;
+ }
 
-        .hero-title span {
-            color: var(--primary-color);
-            display: block;
-        }
+ .hero-title span {
+ color: var(--primary-color);
+ display: block;
+ }
 
-        .hero-desc {
-            font-size: 1.15rem;
-            color: var(--text-muted);
-            max-width: 800px;
-        }
+ .hero-desc {
+ font-size: 1.15rem;
+ color: var(--text-muted);
+ max-width: 800px;
+ }
 
-        /* Night Transit Map Concept Layout */
-        .transit-map-section {
-            max-width: 1200px;
-            margin: 4rem auto;
-            padding: 0 2rem;
-        }
+ /* Night Transit Map Concept Layout */
+ .transit-map-section {
+ max-width: 1200px;
+ margin: 4rem auto;
+ padding: 0 2rem;
+ }
 
-        .section-title {
-            font-size: 2rem;
-            font-weight: 800;
-            margin-bottom: 3rem;
-            border-left: 5px solid var(--primary-color);
-            padding-left: 15px;
-            text-transform: uppercase;
-        }
+ .section-title {
+ font-size: 2rem;
+ font-weight: 800;
+ margin-bottom: 3rem;
+ border-left: 5px solid var(--primary-color);
+ padding-left: 15px;
+ text-transform: uppercase;
+ }
 
-        .transit-route {
-            position: relative;
-            padding-left: 50px;
-        }
+ .transit-route {
+ position: relative;
+ padding-left: 50px;
+ }
 
-        .transit-route::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 15px;
-            width: 4px;
-            background: repeating-linear-gradient(
-                to bottom,
-                var(--primary-color),
-                var(--primary-color) 15px,
-                transparent 15px,
-                transparent 30px
-            );
-        }
+ .transit-route::before {
+ content: '';
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 15px;
+ width: 4px;
+ background: repeating-linear-gradient(
+ to bottom,
+ var(--primary-color),
+ var(--primary-color) 15px,
+ transparent 15px,
+ transparent 30px
+ );
+ }
 
-        .transit-station {
-            position: relative;
-            margin-bottom: 4rem;
-        }
+ .transit-station {
+ position: relative;
+ margin-bottom: 4rem;
+ }
 
-        .transit-station::before {
-            content: '';
-            position: absolute;
-            left: -44px;
-            top: 5px;
-            width: 20px;
-            height: 20px;
-            background-color: var(--bg-color);
-            border: 4px solid var(--primary-color);
-            border-radius: 50%;
-            z-index: 2;
-        }
+ .transit-station::before {
+ content: '';
+ position: absolute;
+ left: -44px;
+ top: 5px;
+ width: 20px;
+ height: 20px;
+ background-color: var(--bg-color);
+ border: 4px solid var(--primary-color);
+ border-radius: 50%;
+ z-index: 2;
+ }
 
-        .transit-station.active::before {
-            border-color: var(--accent-red);
-            box-shadow: 0 0 12px var(--accent-red);
-        }
+ .transit-station.active::before {
+ border-color: var(--accent-red);
+ box-shadow: 0 0 12px var(--accent-red);
+ }
 
-        .station-tag {
-            font-size: 0.85rem;
-            font-weight: 900;
-            color: var(--accent-red);
-            text-transform: uppercase;
-            margin-bottom: 0.5rem;
-            letter-spacing: 1px;
-        }
+ .station-tag {
+ font-size: 0.85rem;
+ font-weight: 900;
+ color: var(--accent-red);
+ text-transform: uppercase;
+ margin-bottom: 0.5rem;
+ letter-spacing: 1px;
+ }
 
-        .m-card-roz2-title {
-            font-size: 1.6rem;
-            font-weight: 800;
-            margin-bottom: 1rem;
-            color: #fff;
-        }
+ .m-card-roz2-title {
+ font-size: 1.6rem;
+ font-weight: 800;
+ margin-bottom: 1rem;
+ color: #fff;
+ }
 
-        .station-content {
-            background-color: var(--panel-bg);
-            border: 2px solid var(--border-color);
-            padding: 2rem;
-            transition: transform 0.2s ease, border-color 0.2s ease;
-        }
+ .station-content {
+ background-color: var(--panel-bg);
+ border: 2px solid var(--border-color);
+ padding: 2rem;
+ transition: transform 0.2s ease, border-color 0.2s ease;
+ }
 
-        .station-content:hover {
-            transform: translateY(-4px);
-            border-color: var(--primary-color);
-        }
+ .station-content:hover {
+ transform: translateY(-4px);
+ border-color: var(--primary-color);
+ }
 
-        .station-text {
-            color: var(--text-color);
-            font-size: 1.05rem;
-            margin-bottom: 1.5rem;
-        }
+ .station-text {
+ color: var(--text-color);
+ font-size: 1.05rem;
+ margin-bottom: 1.5rem;
+ }
 
-        .station-anecdote {
-            background-color: rgba(0, 240, 255, 0.05);
-            border-left: 3px solid var(--primary-color);
-            padding: 1rem;
-            font-style: italic;
-            font-size: 0.95rem;
-            color: var(--text-muted);
-        }
+ .station-anecdote {
+ background-color: rgba(0, 240, 255, 0.05);
+ border-left: 3px solid var(--primary-color);
+ padding: 1rem;
+ font-style: italic;
+ font-size: 0.95rem;
+ color: var(--text-muted);
+ }
 
-        /* Grid Section for Expertise Signals */
-        .expertise-grid {
-            max-width: 1200px;
-            margin: 5rem auto;
-            padding: 0 2rem;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-        }
+ /* Grid Section for Expertise Signals */
+ .expertise-grid {
+ max-width: 1200px;
+ margin: 5rem auto;
+ padding: 0 2rem;
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 20px;
+ }
 
-        .expertise-card {
-            background-color: var(--panel-bg);
-            border: 2px solid var(--border-color);
-            padding: 2.5rem;
-            text-align: center;
-        }
+ .expertise-card {
+ background-color: var(--panel-bg);
+ border: 2px solid var(--border-color);
+ padding: 2.5rem;
+ text-align: center;
+ }
 
-        .expertise-icon {
-            font-size: 2.5rem;
-            color: var(--primary-color);
-            margin-bottom: 1.5rem;
-        }
+ .expertise-icon {
+ font-size: 2.5rem;
+ color: var(--primary-color);
+ margin-bottom: 1.5rem;
+ }
 
-        .expertise-title {
-            font-size: 1.25rem;
-            font-weight: 800;
-            margin-bottom: 1rem;
-        }
+ .expertise-title {
+ font-size: 1.25rem;
+ font-weight: 800;
+ margin-bottom: 1rem;
+ }
 
-        .expertise-desc {
-            font-size: 0.95rem;
-            color: var(--text-muted);
-            line-height: 1.5;
-        }
+ .expertise-desc {
+ font-size: 0.95rem;
+ color: var(--text-muted);
+ line-height: 1.5;
+ }
 
-        /* Footer */
-        footer {
-            border-top: 3px solid var(--border-color);
-            background-color: var(--panel-bg);
-            padding: 4rem 2rem;
-            margin-top: 6rem;
-        }
+ /* Footer */
+ footer {
+ border-top: 3px solid var(--border-color);
+ background-color: var(--panel-bg);
+ padding: 4rem 2rem;
+ margin-top: 6rem;
+ }
 
-        .footer-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            flex-wrap: wrap;
-            gap: 30px;
-        }
+ .footer-container {
+ max-width: 1200px;
+ margin: 0 auto;
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-start;
+ flex-wrap: wrap;
+ gap: 30px;
+ }
 
-        .footer-brand {
-            max-width: 400px;
-        }
+ .footer-brand {
+ max-width: 400px;
+ }
 
-        .footer-brand-name {
-            font-size: 1.3rem;
-            font-weight: 900;
-            margin-bottom: 1rem;
-            color: #fff;
-        }
+ .footer-brand-name {
+ font-size: 1.3rem;
+ font-weight: 900;
+ margin-bottom: 1rem;
+ color: #fff;
+ }
 
-        .footer-desc {
-            font-size: 0.9rem;
-            color: var(--text-muted);
-        }
+ .footer-desc {
+ font-size: 0.9rem;
+ color: var(--text-muted);
+ }
 
-        .footer-links {
-            display: flex;
-            gap: 40px;
-        }
+ .footer-links {
+ display: flex;
+ gap: 40px;
+ }
 
-        .footer-link-group {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
+ .footer-link-group {
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ }
 
-        .footer-link-title {
-            font-size: 0.95rem;
-            font-weight: 800;
-            color: var(--primary-color);
-            text-transform: uppercase;
-            margin-bottom: 0.5rem;
-        }
+ .footer-link-title {
+ font-size: 0.95rem;
+ font-weight: 800;
+ color: var(--primary-color);
+ text-transform: uppercase;
+ margin-bottom: 0.5rem;
+ }
 
-        .footer-link-group a {
-            font-size: 0.9rem;
-            color: var(--text-muted);
-        }
+ .footer-link-group a {
+ font-size: 0.9rem;
+ color: var(--text-muted);
+ }
 
-        .footer-link-group a:hover {
-            color: var(--primary-color);
-        }
+ .footer-link-group a:hover {
+ color: var(--primary-color);
+ }
 
-        .copyright {
-            width: 100%;
-            text-align: center;
-            margin-top: 3rem;
-            padding-top: 2rem;
-            border-top: 1px solid var(--border-color);
-            font-size: 0.85rem;
-            color: var(--text-muted);
-        }
+ .copyright {
+ width: 100%;
+ text-align: center;
+ margin-top: 3rem;
+ padding-top: 2rem;
+ border-top: 1px solid var(--border-color);
+ font-size: 0.85rem;
+ color: var(--text-muted);
+ }
 
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .q-list-iodg-main {
-                flex-direction: column;
-                gap: 15px;
-                text-align: center;
-            }
+ /* Responsive Design */
+ @media (max-width: 768px) {
+ .q-list-iodg-main {
+ flex-direction: column;
+ gap: 15px;
+ text-align: center;
+ }
 
-            .nav-links {
-                flex-wrap: wrap;
-                justify-content: center;
-                gap: 10px;
-            }
+ .nav-links {
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 10px;
+ }
 
-            .hero-title {
-                font-size: 2rem;
-            }
+ .hero-title {
+ font-size: 2rem;
+ }
 
-            .transit-route {
-                padding-left: 30px;
-            }
+ .transit-route {
+ padding-left: 30px;
+ }
 
-            .transit-route::before {
-                left: 5px;
-            }
+ .transit-route::before {
+ left: 5px;
+ }
 
-            .transit-station::before {
-                left: -34px;
-                width: 16px;
-                height: 16px;
-                top: 7px;
-            }
+ .transit-station::before {
+ left: -34px;
+ width: 16px;
+ height: 16px;
+ top: 7px;
+ }
 
-            .expertise-grid {
-                grid-template-columns: 1fr;
-            }
+ .expertise-grid {
+ grid-template-columns: 1fr;
+ }
 
-            .footer-container {
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
-            }
+ .footer-container {
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+ }
 
-            .footer-links {
-                flex-direction: column;
-                gap: 25px;
-                align-items: center;
-            }
-        }
-    </style>
+ .footer-links {
+ flex-direction: column;
+ gap: 25px;
+ align-items: center;
+ }
+ }
+ </style>
   <meta name="twitter:card" content="summary">
 </head>
 <body>
 
-    <!-- Header Navigation -->
-    <header>
-        <div class="q-list-iodg-main">
-            <div class="logo-area">
-                <span class="n-ico-3bik"></span>
-                <a href="/">SEOUL NIGHT MAP</a>
-            </div>
-            <nav class="nav-links">
-                <a href="/" class="k-side-mqn7-link">홈</a>
-                <a href="/zones.html" class="k-side-mqn7-link">상권 노선도</a>
-                <a href="/about.html" class="k-side-mqn7-link active">소개</a>
-            </nav>
-        </div>
-    </header>
+ <!-- Header Navigation -->
+ <header>
+ <div class="q-list-iodg-main">
+ <div class="logo-area">
+ <span class="n-ico-3bik"></span>
+ <a href="/">SEOUL NIGHT MAP</a>
+ </div>
+ <nav class="nav-links">
+ <a href="/" class="k-side-mqn7-link">홈</a>
+ <a href="/zones.html" class="k-side-mqn7-link">상권 노선도</a>
+ <a href="/about.html" class="k-side-mqn7-link active">소개</a>
+ </nav>
+ </div>
+ </header>
 
-    <!-- Hero Banner -->
-    <section class="hero-banner">
-        <h1 class="hero-title">
-            서울의 밤거리를 관통하는<span>디지털 네비게이터</span>
-        </h1>
-        <p class="hero-desc">
-            복잡하고 빠르게 변하는 서울의 야간 상권. 광고와 거짓 정보의 숲에서 길을 잃으셨나요? 이곳은 불야성을 이루는 서울 각지의 골목길부터 비즈니스 중심지까지, 흐름과 맥락을 짚어내기 위해 탄생했습니다.
-        </p>
-    </section>
+ <!-- Hero Banner -->
+ <section class="hero-banner">
+ <h1 class="hero-title">
+ 서울의 밤거리를 관통하는<span>디지털 네비게이터</span>
+ </h1>
+ <p class="hero-desc">
+ 복잡하고 빠르게 변하는 서울의 야간 상권. 광고와 거짓 정보의 숲에서 길을 잃으셨나요? 이곳은 불야성을 이루는 서울 각지의 골목길부터 비즈니스 중심지까지, 흐름과 맥락을 짚어내기 위해 탄생했습니다.
+ </p>
+ </section>
 
-    <!-- Transit Map Concept Sections (Timeline Flow) -->
-    <section class="transit-map-section">
-        <h2 class="section-title">블로그 구축 노선도</h2>
-        
-        <div class="transit-route">
-            <!-- Station 1 -->
-            <div class="transit-station active">
-                <div class="station-tag">Station 01. 출발점</div>
-                <div class="station-content">
-                    <h3 class="m-card-roz2-title">왜 이런 정보 지도를 그리기 시작했을까요?</h3>
-                    <p class="station-text">
-                        처음엔 저도 평범한 직장인이었답니다. 거래처 미팅 후 2차 장소를 잡거나, 오랜만에 찾아온 친구들과 강남이나 여의도에서 모임을 가질 때마다 막막했거든요. 인터넷을 검색해봐도 온통 의미 없는 광고글이나 주관적인 칭찬뿐이더라고요. 진짜 상권의 분위기가 어떤지, 어떤 업종이 밀집해 있고 예산이나 성격에 맞는 곳이 어딘지 객관적으로 알려주는 곳은 없었죠.
-                    </p>
-                    <div class="station-anecdote">
-                        "내가 직접 발로 뛰며 노선도처럼 깔끔하게 정리된 데이터베이스를 만들어보자!" 그렇게 가벼운 결심에서 이 여정이 시작되었습니다.
-                    </div>
-                </div>
-            </div>
+ <!-- Transit Map Concept Sections (Timeline Flow) -->
+ <section class="transit-map-section">
+ <h2 class="section-title">블로그 구축 노선도</h2>
+ 
+ <div class="transit-route">
+ <!-- Station 1 -->
+ <div class="transit-station active">
+ <div class="station-tag">Station 01. 출발점</div>
+ <div class="station-content">
+ <h3 class="m-card-roz2-title">왜 이런 정보 지도를 그리기 시작했을까요?</h3>
+ <p class="station-text">
+ 처음엔 저도 평범한 직장인이었답니다. 거래처 미팅 후 2차 장소를 잡거나, 오랜만에 찾아온 친구들과 강남이나 여의도에서 모임을 가질 때마다 막막했거든요. 인터넷을 검색해봐도 온통 의미 없는 광고글이나 주관적인 칭찬뿐이더라고요. 진짜 상권의 분위기가 어떤지, 어떤 업종이 밀집해 있고 예산이나 성격에 맞는 곳이 어딘지 객관적으로 알려주는 곳은 없었죠.
+ </p>
+ <div class="station-anecdote">
+ "내가 직접 발로 뛰며 노선도처럼 깔끔하게 정리된 데이터베이스를 만들어보자!" 그렇게 가벼운 결심에서 이 여정이 시작되었습니다.
+ </div>
+ </div>
+ </div>
 
-            <!-- Station 2 -->
-            <div class="transit-station">
-                <div class="station-tag">Station 02. 정보 수집 기준</div>
-                <div class="station-content">
-                    <h3 class="m-card-roz2-title">철저히 건조하고 객관적인 필터링</h3>
-                    <p class="station-text">
-                        저희 블로그는 단순한 유흥 업소 나열을 지양합니다. 셔츠룸, 룸싸롱, 텐프로 같은 정통 비즈니스 클럽부터 여의도의 직장인 마사지/케어 숍, 홍대와 마포의 캐주얼한 펍과 노래방에 이르기까지, 각 상권의 밀집도와 유동인구의 성향을 먼저 분석합니다. 광고성 제휴에 휘둘리지 않고 오직 공개된 데이터와 상권 분석 시스템의 수치를 기반으로 글을 씁니다.
-                    </p>
-                    <div class="station-anecdote">
-                        매주 금요일 밤과 평일 늦은 시간, 서울 주요 거점의 유동인구를 체킹하며 흐름의 변화를 모니터링합니다.
-                    </div>
-                </div>
-            </div>
+ <!-- Station 2 -->
+ <div class="transit-station">
+ <div class="station-tag">Station 02. 정보 수집 기준</div>
+ <div class="station-content">
+ <h3 class="m-card-roz2-title">철저히 건조하고 객관적인 필터링</h3>
+ <p class="station-text">
+ 저희 블로그는 단순한 유흥 업소 나열을 지양합니다. 셔츠룸, 룸싸롱, 텐프로 같은 정통 비즈니스 클럽부터 여의도의 직장인 마사지/케어 숍, 홍대와 마포의 캐주얼한 펍과 노래방에 이르기까지, 각 상권의 밀집도와 유동인구의 성향을 먼저 분석합니다. 광고성 제휴에 휘둘리지 않고 오직 공개된 데이터와 상권 분석 시스템의 수치를 기반으로 글을 씁니다.
+ </p>
+ <div class="station-anecdote">
+ 매주 금요일 밤과 평일 늦은 시간, 서울 주요 거점의 유동인구를 체킹하며 흐름의 변화를 모니터링합니다.
+ </div>
+ </div>
+ </div>
 
-            <!-- Station 3 -->
-            <div class="transit-station">
-                <div class="station-tag">Station 03. 지향점</div>
-                <div class="station-content">
-                    <h3 class="m-card-roz2-title">소비자의 시간과 비용을 아끼는 가이드라인</h3>
-                    <p class="station-text">
-                        중요한 비즈니스 미팅 자리인데 분위기가 전혀 맞지 않는 곳으로 가거나, 힐링을 원했는데 시끄러운 유흥가 한복판에서 헤매는 불상사를 막는 것이 이 블로그의 궁극적인 목표예요. 정거장마다 명확한 행선지가 적혀 있는 지하철 노선도처럼, 서울 밤거리의 모든 선택지를 투명하고 보기 쉽게 매칭해 드릴게요.
-                    </p>
-                    <div class="station-anecdote">
-                        여러분의 밤이 보다 효율적이고 안전하며, 낭비 없는 시간이 될 수 있도록 매주 새로운 상권 정보를 업데이트합니다.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+ <!-- Station 3 -->
+ <div class="transit-station">
+ <div class="station-tag">Station 03. 지향점</div>
+ <div class="station-content">
+ <h3 class="m-card-roz2-title">소비자의 시간과 비용을 아끼는 가이드라인</h3>
+ <p class="station-text">
+ 중요한 비즈니스 미팅 자리인데 분위기가 전혀 맞지 않는 곳으로 가거나, 힐링을 원했는데 시끄러운 유흥가 한복판에서 헤매는 불상사를 막는 것이 이 블로그의 궁극적인 목표예요. 정거장마다 명확한 행선지가 적혀 있는 지하철 노선도처럼, 서울 밤거리의 모든 선택지를 투명하고 보기 쉽게 매칭해 드릴게요.
+ </p>
+ <div class="station-anecdote">
+ 여러분의 밤이 보다 효율적이고 안전하며, 낭비 없는 시간이 될 수 있도록 매주 새로운 상권 정보를 업데이트합니다.
+ </div>
+ </div>
+ </div>
+ </div>
+ </section>
 
-    <!-- Expertise Signals Section -->
-    <section class="expertise-grid">
-        <div class="expertise-card">
-            <div class="expertise-icon">📊</div>
-            <h4 class="expertise-title">데이터 기반 분석</h4>
-            <p class="expertise-desc">행정구역별 상업용 부동산 공실률과 야간 업종 등록 인허가 데이터를 크로스 체크하여 객관적인 동향을 도출합니다.</p>
-        </div>
-        <div class="expertise-card">
-            <div class="expertise-icon">👣</div>
-            <h4 class="expertise-title">주기적인 현장 검증</h4>
-            <p class="expertise-desc">온라인에 도는 낡은 정보가 아닌, 실제 상권의 변화와 신규 밀집 지역을 주기적으로 직접 방문하여 확인합니다.</p>
-        </div>
-        <div class="expertise-card">
-            <div class="expertise-icon">🛡️</div>
-            <h4 class="expertise-title">광고 배제 원칙</h4>
-            <p class="expertise-desc">특정 업체로부터 경제적 대가를 받고 작성하는 편파적인 리뷰나 평점을 완전히 배제하여 정보의 신뢰도를 유지합니다.</p>
-        </div>
-    </section>
+ <!-- Expertise Signals Section -->
+ <section class="expertise-grid">
+ <div class="expertise-card">
+ <div class="expertise-icon">📊</div>
+ <h4 class="expertise-title">데이터 기반 분석</h4>
+ <p class="expertise-desc">행정구역별 상업용 부동산 공실률과 야간 업종 등록 인허가 데이터를 크로스 체크하여 객관적인 동향을 도출합니다.</p>
+ </div>
+ <div class="expertise-card">
+ <div class="expertise-icon">👣</div>
+ <h4 class="expertise-title">주기적인 현장 검증</h4>
+ <p class="expertise-desc">온라인에 도는 낡은 정보가 아닌, 실제 상권의 변화와 신규 밀집 지역을 주기적으로 직접 방문하여 확인합니다.</p>
+ </div>
+ <div class="expertise-card">
+ <div class="expertise-icon">🛡️</div>
+ <h4 class="expertise-title">광고 배제 원칙</h4>
+ <p class="expertise-desc">특정 업체로부터 경제적 대가를 받고 작성하는 편파적인 리뷰나 평점을 완전히 배제하여 정보의 신뢰도를 유지합니다.</p>
+ </div>
+ </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="footer-container">
-            <div class="footer-brand">
-                <div class="footer-brand-name">SEOUL NIGHT MAP</div>
-                <p class="footer-desc">서울의 주요 권역별 상권 특징과 야간 업종 밀집 구역을 정밀 분석하여 투명한 정보를 전달하는 신뢰성 중심의 정보 플랫폼입니다.</p>
-            </div>
-            <div class="footer-links">
-                <div class="footer-link-group">
-                    <span class="footer-link-title">바로가기</span>
-                    <a href="/">홈으로</a>
-                    <a href="/zones.html">상권 분석 리스트</a>
-                    <a href="/about.html">운영자 소개</a>
-                </div>
-                <div class="footer-link-group">
-                    <span class="footer-link-title">분석 지역</span>
-                    <a href="#">강남 비즈니스 벨트</a>
-                    <a href="#">여의도 힐링 상권</a>
-                    <a href="#">마포/홍대 트렌드 존</a>
-                </div>
-            </div>
-            <div class="copyright">
-                &copy; 2024 Seoul Night Map. All Rights Reserved. 본 블로그의 정보는 객관적 사실 전달을 목적으로 하며, 특정 행위를 조장하지 않습니다.
-            </div>
-        </div>
-    </footer>
+ <!-- Footer -->
+ <footer>
+ <div class="footer-container">
+ <div class="footer-brand">
+ <div class="footer-brand-name">SEOUL NIGHT MAP</div>
+ <p class="footer-desc">서울의 주요 권역별 상권 특징과 야간 업종 밀집 구역을 정밀 분석하여 투명한 정보를 전달하는 신뢰성 중심의 정보 플랫폼입니다.</p>
+ </div>
+ <div class="footer-links">
+ <div class="footer-link-group">
+ <span class="footer-link-title">바로가기</span>
+ <a href="/">홈으로</a>
+ <a href="/zones.html">상권 분석 리스트</a>
+ <a href="/about.html">운영자 소개</a>
+ </div>
+ <div class="footer-link-group">
+ <span class="footer-link-title">분석 지역</span>
+ <a href="#">강남 비즈니스 벨트</a>
+ <a href="#">여의도 힐링 상권</a>
+ <a href="#">마포/홍대 트렌드 존</a>
+ </div>
+ </div>
+ <div class="copyright">
+ &copy; 2024 Seoul Night Map. All Rights Reserved. 본 블로그의 정보는 객관적 사실 전달을 목적으로 하며, 특정 행위를 조장하지 않습니다.
+ </div>
+ </div>
+ </footer>
 
 </body>
 </html>
