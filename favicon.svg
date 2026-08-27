@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img">
+  <title>t2-reading-massage-yeouido-hub</title>
+  <rect width="64" height="64" rx="16" fill="hsl(229 58% 23%)"/>
+  <path d="M64 0v26L38 0Z" fill="hsl(336 68% 66%)" opacity="0.16"/>
+  <g transform="rotate(180 32 32)"><rect x="14" y="34" width="9" height="16" rx="2" fill="hsl(229 24% 96%)"/><rect x="27" y="26" width="9" height="24" rx="2" fill="hsl(229 24% 96%)"/><rect x="40" y="16" width="9" height="34" rx="2" fill="hsl(336 68% 66%)"/></g>
+</svg>
